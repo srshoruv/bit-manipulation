@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int iTheBit (int num, int i) {
+int iThBit (int num, int i) {
     int mask = 1 << i;
 
     if (!(num & mask)) {
@@ -12,6 +12,6 @@ int iTheBit (int num, int i) {
 }
 
 int main () {
-    cout << iTheBit(7,5) << endl;
-    cout << iTheBit(8,3) << endl;
+    cout << iThBit(7,5) << endl;
+    cout << iThBit(8,3) << endl;
 }
