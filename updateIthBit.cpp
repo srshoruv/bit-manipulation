@@ -8,6 +8,5 @@ void update(int num, int i, int val) {
 }
 
 int main(){
-    update(7,3,0);
-    cout << "Hello";
+    update(7,2,0);
 }
